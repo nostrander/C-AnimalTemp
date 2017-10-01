@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace Lab04_NatashaOstrander
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // #5 Output an animal based on the temperature given by a user
+                        Console.WriteLine("Please Enter a Temperature: ");
+                        int temperature = Convert.ToInt16(Console.ReadLine());
+
+                        if(temperature<10)
+                        {
+                            Console.WriteLine("Polar Bear");
+                        }
+                        else if (temperature<20)
+                        {
+                            Console.WriteLine("Penguin");
+                        }
+                        else if (temperature < 40)
+                        {
+                            Console.WriteLine("Moose");
+                        }
+                        else if (temperature < 50)
+                        {
+                            Console.WriteLine("Reindeer");
+                        }
+                        else if (temperature < 60)
+                        {
+                            Console.WriteLine("Deer");
+                        }
+                        else if (temperature < 70)
+                        {
+                            Console.WriteLine("Turtle");
+                        }
+                        else if (temperature < 80)
+                        {
+                            Console.WriteLine("Lion");
+                        }
+                        else if (temperature < 90) 
+                        {
+                                Console.WriteLine("Fish");
+                        }
+                        else 
+                        {
+                                Console.WriteLine("Bug");
+                        }
+       
+        } // end of Main program
+    }
+}
